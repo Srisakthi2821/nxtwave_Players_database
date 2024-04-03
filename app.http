@@ -1,0 +1,19 @@
+###        API-1    ###
+GET https://srisakthin356jnjscpscvyl.drops.nxtwave.tech/players/
+####      API-2   ######
+GET https://srisakthin356jnjscpscvyl.drops.nxtwave.tech/players/2/ 
+###  API-3      #######
+PUT https://srisakthin356jnjscpscvyl.drops.nxtwave.tech/players/2/ 
+Content-Type: application/json
+
+{
+  "playerName": "Raju"
+}
+###       API-4      #######
+GET https://srisakthin356jnjscpscvyl.drops.nxtwave.tech/matches/18/
+###       API-5      #######
+GET https://srisakthin356jnjscpscvyl.drops.nxtwave.tech/players/4/matches
+####       API-6     ######
+GET https://srisakthin356jnjscpscvyl.drops.nxtwave.tech/matches/9/players
+#####       API-7      ######
+GET https://srisakthin356jnjscpscvyl.drops.nxtwave.tech/players/1/playerScores
